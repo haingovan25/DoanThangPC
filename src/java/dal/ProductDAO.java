@@ -96,5 +96,50 @@ public class ProductDAO extends DBContext {
         }
         return null;
     }
+public boolean deleteProductById(int id) {
+    String sql = "DELETE FROM Products WHERE ProductID = ?";
+    try {
+        PreparedStatement ps = connection.prepareStatement(sql);
+        ps.setInt(1, id);
+        int rows = ps.executeUpdate();
+        return rows > 0;
+    } catch (SQLException e) {
+        e.printStackTrace();
+    }
+    return false;
+}
 
+public boolean addProduct(Product product) {
+    String sql = "INSERT INTO Products (ProductName, Description, Price, CategoryID, ImageURL) VALUES (?, ?, ?, ?, ?)";
+    try {
+        PreparedStatement ps = connection.prepareStatement(sql);
+        ps.setString(1, product.getProductName());
+        ps.setString(2, product.getDescription());
+        ps.setDouble(3, product.getPrice());
+        ps.setInt(4, product.getCategoryID());
+        ps.setString(5, product.getImageURL());
+        int rows = ps.executeUpdate();
+        return rows > 0;
+    } catch (SQLException e) {
+        e.printStackTrace();
+    }
+    return false;
+}
+    public boolean updateProduct(Product product) {
+        String sql = "UPDATE Products SET ProductName = ?, Description = ?, Price = ?, CategoryID = ?, ImageURL = ? WHERE ProductID = ?";
+        try {
+            PreparedStatement ps = connection.prepareStatement(sql);
+            ps.setString(1, product.getProductName());
+            ps.setString(2, product.getDescription());
+            ps.setDouble(3, product.getPrice());
+            ps.setInt(4, product.getCategoryID());
+            ps.setString(5, product.getImageURL());
+            ps.setInt(6, product.getProductID());
+            int rows = ps.executeUpdate();
+            return rows > 0;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
 }

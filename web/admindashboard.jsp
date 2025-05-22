@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/admin-dashboard.css" rel="stylesheet" type="text/css"/>
-    <title>TAT Apple - Dashboard</title>
+    <title>Doãn Thắng PC - Dashboard</title>
 </head>
 <body>
     <div class="container">
@@ -15,23 +15,23 @@
         <div class="main-content">
             <%@ include file="admin-header.jsp" %>
             <div class="header-title">
-                <h1>TỔNG QUAN BÁN HÀNG TECH APPLE TREND</h1>
+                <h1>TỔNG QUAN BÁN HÀNG Doãn Thắng PC</h1>
             </div>
             <!-- Stats Cards -->
             <div class="stats-cards">
                 <div class="card">
                     <div class="icon">🛒</div>
-                    <h3>$45.2K</h3>
+                    <h3>$50,2K</h3>
                     <p>Tổng doanh thu</p>
                 </div>
                 <div class="card">
                     <div class="icon">📦</div>
-                    <h3>2,450</h3>
+                    <h3>2503</h3>
                     <p>Tổng số sản phẩm bán ra</p>
                 </div>
                 <div class="card">
                     <div class="icon">👥</div>
-                    <h3>3,456</h3>
+                    <h3>4,000</h3>
                     <p>Tổng số khách hàng</p>
                 </div>
             </div>

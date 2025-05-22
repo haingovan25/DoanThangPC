@@ -1,0 +1,104 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 thg 5, 2025, 20:32:37
+    Author     : tnteheh
+*/
+
+/* Edit Product Form Styles */
+.edit-product-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #718096;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.form-group .current-image {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.save-button,
+.cancel-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.add-button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    background: #48bb78;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.save-button {
+    background: #48bb78;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background: #38a169;
+}
+
+
+
+.add-button:hover{
+    background: #38s169;
+}
+
+.cancel-button {
+    background: #ff6f61;
+    color: #fff;
+    display: inline-block;
+}
+
+.cancel-button:hover {
+    background: #e65a50;
+}

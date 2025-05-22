@@ -19,8 +19,7 @@
                     <li><a href="admin-categories">Danh mục</a></li>
                     <li><a href="admin-variants">Phiên bản sản phẩm</a></li>
                     <li><a href="admin-admins.jsp">Quản trị viên</a></li>
-                    <li><a href="admin-users.jsp">Người dùng</a></li>
-                    <li><a href="AdminLogoutServlet">Đăng xuất</a></li>
+                    <li><a href="logoutadmin">Đăng xuất</a></li>
                 </ul>
             </div>
         </div>

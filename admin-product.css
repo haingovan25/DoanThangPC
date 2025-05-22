@@ -1,0 +1,182 @@
+main{
+    box-sizing: border-box;
+}
+
+.product-name-price{
+    display: flex;
+    justify-content: space-around;
+    font-family: Monsterrat-Light;
+    padding: 20px;
+    font-size: small;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-name-price_name{
+    font-family: Monsterrat-Regular;
+    align-items: center;
+    font-size: large;
+    font-family: Montserrat, sans-serif;
+    
+}
+
+.product-name-price_price{
+    margin-top: 2px;
+    font-size: large;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-family: Monsterrat-Light;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-container {
+    display: flex;
+    overflow: hidden;
+    width: 1000px;
+    margin-top: 40px;
+    font-family: Montserrat, sans-serif;
+}
+.product-image {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-image img {
+    max-width: 100%;
+    font-family: Montserrat, sans-serif;
+}
+
+/*.product-image-mini{*/
+/*    display: flex;*/
+/*    justify-content: left;*/
+/*}*/
+
+.product-image-mini img {
+    max-width: 100%;
+    width: 15%;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-details {
+    padding: 20px;
+    width: 70%;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-details_color {
+    padding: 12px 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-details_color_item img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 20.87px;
+    height: 20.87px;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-details_color_item img:hover{
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-details_color h4{
+    font-size: 17px;
+    margin-bottom: 16px;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-details_capacity{
+    padding: 12px 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-details_capacity h4{
+    font-size: 17px;
+    margin-bottom: 26px;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-details_capacity_button_item{
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-detail_delivery{
+    margin: 12px;
+    font-size: smaller;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-detail_delivery i{
+    margin-right: 10px;
+}
+
+.container-discribe {
+    font-family: Monsterrat-Light;
+    margin-bottom: 20px;
+    font-family: Montserrat, sans-serif;
+}
+.product-add-cart_btn{
+    font-family: Monsterrat-Regular;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #007bff;
+    background-color: white;
+    color: #007bff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Montserrat, sans-serif;
+}
+
+.product-add-cart_btn:hover{
+    font-family: Montserrat, sans-serif;
+    background-color: #e7f0ff;
+}
+
+.container-discribe_btn{
+    font-family: Monsterrat-Light;
+    font-size: small;
+    width: 100%;
+    max-width: 200px;
+border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.container-discribe_detail{
+    width: 1300px;
+    font-size: smaller;
+    font-family: Montserrat, sans-serif;
+}
+
+.container-discribe-box{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Montserrat, sans-serif;
+}
+
+.container-discribe-box h3{
+    margin-top: 5px;
+    font-family: Monsterrat-Bold;
+    font-family: Montserrat, sans-serif;
+}
